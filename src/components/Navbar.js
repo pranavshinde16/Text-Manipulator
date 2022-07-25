@@ -22,9 +22,10 @@ export default function Navbar(props) {
                             </li>
                         </ul>
                         <form className="d-flex pe-3">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" style={{ backgroundColor: props.mode === "dark" ? "#495057" : "white", color: props.mode === "dark" ? "white" : "black" }} />
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" style={{ backgroundColor: props.mode === "dark" ? "#091a29" : "white", color: props.mode === "dark" ? "white" : "black" }} />
                             <button className="btn btn-outline-info" type="submit">Search</button>
                         </form>
+
                         <div className={`form-check form-switch text-${props.mode === "light"} ? "dark":"light" my-1 `}>
                             <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={props.toggleMode}></input>
                             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>

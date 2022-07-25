@@ -43,7 +43,7 @@
   font-family: 'Poppins', sans-serif;
   font-variant: small-caps;
   font-weight: 600;
-  filter: drop-shadow(2px 2px 2px rgb(9, 213, 232));
+  filter: drop-shadow(1px 1px 1px rgb(9, 213, 232));
 }
 
 .about{

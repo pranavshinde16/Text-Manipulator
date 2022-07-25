@@ -70,10 +70,10 @@ export default function TextForm(props) {
                 <div className='container'>
                     <div className="mb-3 pt-3">
                         <h3>{props.heading}</h3>
-                        <textarea className="form-control border border-dark" id="myBox" value={text} placeholder="Enter text here" onChange={handleOnChange} rows="8" style={{
+                        <textarea className="form-control" id="myBox" value={text} placeholder="Enter text here" onChange={handleOnChange} rows="8" style={{
                             color: props.mode === "dark" ? "white" : "black",
                             backgroundColor: props.mode === "dark" ? "rgb(6 18 28)" : "white",
-                            borderColor: props.mode === "dark" ? "white" : "black",
+                            borderColor: props.mode ==="dark"?"white":"black"
                         }}></textarea>
                         {/* If mode===dark, then change color=    */}
                     </div >

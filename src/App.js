@@ -33,6 +33,7 @@ function App() {
       setMode("dark")
       document.body.style.backgroundColor = "rgb(4 20 32)";
       document.body.style.color = "white";
+      // document.getElementById("myBox").classList.add("border border-light")
       showAlert("success", " Dark Mode has been Enabled")
       
     }
@@ -40,6 +41,7 @@ function App() {
       setMode("light")
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
+      // document.getElementById("myBox").classList.add("border border-dark")
       showAlert("success", " Light Mode has been Enabled")
       document.getElementById("cardShadow").classList.add("shadow p-3 mb-5 my-4 bg-body rounded")
     }
